@@ -1,0 +1,104 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS related
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner.xcworkspace/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcworkspace/xcuserdata/
+*.xcworkspace/
+*.xcuserdatad/
+*.xcuserdata/
+*.xccheckout/
+*.xcodeproj/
+*.mode1v3
+*.mode2v3
+*.pbxuser
+*.pbxproj
+*.plist
+
+# macOS related
+*.crash
+*.xcuserstate
+DerivedData/
+*.hmap
+*.ipa
+*.app
+
+# Temporary files
+*.lock
+*.tmp
+*.temp
+*.log
+
+# Flutter specific platform build directories (for both iOS and Android)
+# Ignore the platform-specific build directories to avoid uploading unnecessary
+# build outputs.
+
+# Android
+/android/.gradle/
+/android/build/
+/android/app/build/
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+
+# Ignore Xcode workspace settings and related files
+# These are specific to individual developer setups
+*.xcuserstate
+*.xcuserdata
+*.xcodeproj/project.xcuserdata/
+
+.codegpt
